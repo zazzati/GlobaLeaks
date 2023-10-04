@@ -2,9 +2,9 @@
 
 set -e
 
-TRAVIS_USR="travis-$(git rev-parse --short HEAD)"
+TRAVIS_USR="travis-$(git rev-parse --short HEAD)" 
 
-LOGFILE="$TRAVIS_BUILD_DIR/backend/workingdir/log/globaleaks.log"
+LOGFILE="$TRAVIS_BUILD_DIR/backend/workingdir/log/globaleaks.log" 
 ACCESSLOG="$TRAVIS_BUILD_DIR/backend/workingdir/log/access.log"
 
 function atexit {
@@ -17,7 +17,7 @@ function atexit {
   fi
 }
 
-trap atexit EXIT
+trap atexit EXIT 
 
 setupClientDependencies() {
   cd $TRAVIS_BUILD_DIR/client  # to install frontend dependencies
