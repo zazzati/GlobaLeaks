@@ -16,6 +16,9 @@ possible_client_paths = [
     os.path.abspath(os.path.join(this_directory, '../../client/app/'))
 ]
 
+# define a class to manage datetime objects in a json-serializable way backend/globaleaks/settings.py
+
+
 
 class SettingsClass(object, metaclass=Singleton):
     def __init__(self):
