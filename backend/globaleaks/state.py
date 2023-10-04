@@ -63,10 +63,6 @@ class TenantState(object):
         self.Alarm = Alarm()
     def hello_world(self):
         return "Hello World"
-# This class is a singleton, and is exported as State 
-
-
-
 
 
 class StateClass(ObjectDict, metaclass=Singleton):
