@@ -1,9 +1,11 @@
 # GlobaLeaks Governance
 
 ## Introduction
-[GlobaLeaks](https://www.globaleaks.org) is free, open source software enabling anyone to easily set up and maintain a secure whistleblowing platform.
+[GlobaLeaks](https://www.globaleaks.org) is free, open source software enabling anyone to easily set up and maintain a secure whistleblowing platform. 
 
 The software project has been started in 2011 and [originally authored](https://github.com/globaleaks/GlobaLeaks/blob/main/AUTHORS) by Arturo Filastò, Claudio Agosti, Fabio Pietrosanti, Giovanni Pellerano and Michele Orrù.
+
+
 
 Authored in 2021, this document is a responsible and tentative attempt to analyze the existing governance status, define roles and responsibilities in order to properly define a proper project governance and thus be sure to be able to continue to protect whistleblowers in the long run.
 
