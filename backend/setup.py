@@ -10,12 +10,13 @@ from setuptools.command.test import test as _TestCommand
 
 import globaleaks
 
-
 class TestCommand(_TestCommand):
     def run_tests(self):
         from twisted.trial import runner, reporter
-
+                        
         testsuite_runner= runner.TrialRunner(reporter.TreeReporter)
+        # dump testsuite value in a file, so it can be used by trial
+ 
         loader = runner.TestLoader()
         suite = loader.loadPackage(import_module(self.test_suite), True)
         test_result = testsuite_runner.run(suite)
@@ -36,4 +37,6 @@ setup(
         'bin/globaleaks',
         'bin/gl-admin',
     ]
+
+
 )
