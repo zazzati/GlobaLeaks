@@ -8,7 +8,7 @@ import sys
 from globaleaks.orm import make_db_uri, set_db_uri, enable_orm_debug
 from globaleaks.utils.singleton import Singleton
 
-this_directory = os.path.dirname(__file__)
+this_directory = os.path.dirname(__file__) 
 
 possible_client_paths = [
     '/usr/share/globaleaks/client/',
