@@ -20,6 +20,10 @@ class TestCommand(_TestCommand):
         suite = loader.loadPackage(import_module(self.test_suite), True)
         test_result = testsuite_runner.run(suite)
         sys.exit(not test_result.wasSuccessful())
+# questa prova sul main 
+# write a flip flop algorithm 
+
+# seconda roba sulla main
 
 setup(
     name='globaleaks',
