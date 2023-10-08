@@ -21,19 +21,19 @@ _ORM_THREAD_POOL = None
 _ORM_TRANSACTION_RETRIES = 20 
 
 
+
 SQLITE_DELETE=9
 SQLITE_FUNCTION=31
 SQLITE_INSERT=18
 SQLITE_READ=20
 SQLITE_SELECT=21
 SQLITE_TRANSACTION=22
-SQLITE_UPDATE=23
+SQLITE_UPDATE=23 
 
+#daje
 THREAD_LOCAL = threading.local()
 
-
 warnings.filterwarnings('ignore', '.', SAWarning)
-
 
 def make_db_uri(db_file):
     return 'sqlite:////' + db_file

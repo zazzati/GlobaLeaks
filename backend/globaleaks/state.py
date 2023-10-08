@@ -61,13 +61,14 @@ class TenantState(object):
         self.EventQ = []
         self.AnomaliesQ = []
         self.Alarm = Alarm()
-
+    def hello_world(self):
+        return "Hello World!"
 
 class StateClass(ObjectDict, metaclass=Singleton):
     def __init__(self):
         self.start_time = datetime_now()
         self.settings = Settings
-
+ 
         self.tor_exit_set = TorExitSet()
 
         self.https_socks = []

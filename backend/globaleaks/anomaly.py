@@ -18,13 +18,13 @@ from globaleaks.utils.utility import datetime_now, datetime_null, is_expired
 ANOMALY_MAP = {
     'completed_submissions': 20,
     'failed_logins': 5,
-    'successful_logins': 20
-}
+    'successful_logins': 20 
+} 
 
 
 def get_disk_anomaly_conditions(free_workdir_bytes, total_workdir_bytes):
     free_disk_megabytes = free_workdir_bytes / (1024 * 1024)
-    free_disk_percentage = free_workdir_bytes / (total_workdir_bytes / 100)
+    free_disk_percentage = free_workdir_bytes / (total_workdir_bytes / 100) 
 
     def info_msg_0():
         return "free_disk_megabytes <= %d or free_disk_percentage <= %d" % \

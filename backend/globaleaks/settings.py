@@ -8,13 +8,16 @@ import sys
 from globaleaks.orm import make_db_uri, set_db_uri, enable_orm_debug
 from globaleaks.utils.singleton import Singleton
 
-this_directory = os.path.dirname(__file__)
+this_directory = os.path.dirname(__file__) 
 
 possible_client_paths = [
     '/usr/share/globaleaks/client/',
     os.path.abspath(os.path.join(this_directory, '../../client/build/')),
     os.path.abspath(os.path.join(this_directory, '../../client/app/'))
 ]
+
+# define a class to manage datetime objects in a json-serializable way backend/globaleaks/settings.py
+
 
 
 class SettingsClass(object, metaclass=Singleton):
