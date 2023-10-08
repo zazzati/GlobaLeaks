@@ -18,7 +18,7 @@ from globaleaks.models import AuditLog
 _ORM_DEBUG = False
 _ORM_DB_URI = 'sqlite:'
 _ORM_THREAD_POOL = None
-_ORM_TRANSACTION_RETRIES = 20
+_ORM_TRANSACTION_RETRIES = 20 
 
 
 SQLITE_DELETE=9
