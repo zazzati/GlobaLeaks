@@ -8,7 +8,7 @@ APPARMOR_SANDBOXING=1
 
 # NETWORK_SANDBOXING = [0/1]
 # permits to enable network sandboxing
-NETWORK_SANDBOXING=1
+NETWORK_SANDBOXING=1 
 
 # LISTENING_IP = [ip]
 # permits to configure an ip on which the platform will listen
@@ -16,4 +16,4 @@ LISTENING_IP=::
 
 # WORKING_DIR
 # must be configured with the daemon working directory
-WORKING_DIR=/var/globaleaks/  
+WORKING_DIR=/var/globaleaks/ w

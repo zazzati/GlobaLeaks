@@ -18,7 +18,7 @@ from globaleaks.models import AuditLog
 _ORM_DEBUG = False
 _ORM_DB_URI = 'sqlite:'
 _ORM_THREAD_POOL = None
-_ORM_TRANSACTION_RETRIES = 20  
+_ORM_TRANSACTION_RETRIES = 20
 
 
 
@@ -32,9 +32,7 @@ SQLITE_UPDATE=23
 
 THREAD_LOCAL = threading.local()
 
-
 warnings.filterwarnings('ignore', '.', SAWarning)
-
 
 def make_db_uri(db_file):
     return 'sqlite:////' + db_file

@@ -64,7 +64,6 @@ class TenantState(object):
     def hello_world(self):
         return "Hello World!"
 
-
 class StateClass(ObjectDict, metaclass=Singleton):
     def __init__(self):
         self.start_time = datetime_now()
