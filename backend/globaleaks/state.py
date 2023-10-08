@@ -69,7 +69,7 @@ class StateClass(ObjectDict, metaclass=Singleton):
     def __init__(self):
         self.start_time = datetime_now()
         self.settings = Settings
-
+ 
         self.tor_exit_set = TorExitSet()
 
         self.https_socks = []

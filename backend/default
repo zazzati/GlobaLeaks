@@ -16,4 +16,4 @@ LISTENING_IP=::
 
 # WORKING_DIR
 # must be configured with the daemon working directory
-WORKING_DIR=/var/globaleaks/
+WORKING_DIR=/var/globaleaks/  
